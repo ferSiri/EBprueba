@@ -1,0 +1,73 @@
+#logoEm{
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+}
+
+#navBar{
+  border-bottom: solid 1px #e4e4e4;
+  display: flex;
+}
+
+#inputEm{
+  height: 100%;
+  align-self: flex-end;
+  margin-bottom: 2vh;
+  border-radius:1vh;
+  padding: 0.5vh;
+}
+#bEm{
+  height: 100%;
+  margin-bottom: 2vh;
+  margin-right: 4vh;
+  margin-top:4vh;
+  border-radius:0.5vh;
+  background-color:#00568E;
+  color:white;
+  font-weight: bold;
+  border-color: #00568E;
+  float: right;
+}
+.lista{
+  text-align: center;
+  
+} 
+.lista:hover{
+  background-color:#e4e4e4;
+}
+.containerList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listCol{
+  border-bottom: solid 1px #e4e4e4;
+  border-right: none;
+  border-left: none;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+#table{
+  padding-top:3vh;
+}
+
+#containerSingle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#containerSingle>img{
+  padding:1vh;
+  border: 1px solid #00568E;
+  margin: 2vh;
+  max-height: 50vh;
+}
+
+#singleText>p{
+  border-left:solid 1px #e4e4e4;
+  padding:2vh;
+  text-transform: capitalize;
+}
